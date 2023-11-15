@@ -37,6 +37,16 @@ class MyDrawer extends StatelessWidget {
                     Navigator.pushNamed(context, '/cart_page');
                   },
                 ),
+                MyListTile(
+                  text: "Settings",
+                  icon: Icons.settings,
+                  onTap: () => Navigator.pop(context),
+                ),
+                MyListTile(
+                  text: "Account",
+                  icon: Icons.person,
+                  onTap: () => Navigator.pop(context),
+                ),
               ],
             ),
             Padding(
