@@ -40,7 +40,7 @@ class IntroPage extends StatelessWidget {
                 height: 25,
               ),
               MyButton(
-                onTap: () {},
+                onTap: () => Navigator.pushNamed(context, '/shop_page'),
                 child: const Icon(Icons.arrow_forward),
               )
             ],
